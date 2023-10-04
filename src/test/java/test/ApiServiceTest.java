@@ -28,9 +28,8 @@ public class ApiServiceTest {
     @Test
     public void testApi(){
         when(apiService.sendEmail("Email")).thenReturn(true);
-        when(apiService.sendSMS(anyString())).thenReturn(false);
-
+        when(apiService.sendSMS(anyString())).thenReturn(true);
         assertTrue(apiService.sendEmail("Email"));
-        assertFalse(apiService.sendSMS("Welcome"));
+        assertTrue(apiService.sendSMS("Welcome"));
     }
 }

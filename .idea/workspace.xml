@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b249600c-0b85-4e91-b720-b58b8dc44fb4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/inject/ApiService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/inject/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/inject/SMSService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/inject/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/inject/StaticUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/inject/TestVoidMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/parameterize/Parametrize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/ApiServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/ParametrizeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/StaticUtilsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/TestVoidMethodTestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/StaticUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/StaticUtilsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +43,7 @@
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ParametrizeTest">
+  <component name="RunManager" selected="JUnit.StaticUtilsTest">
     <configuration name="ApiServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JunitTestingNew" />
       <extension name="coverage">
@@ -91,8 +74,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StaticUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JunitTestingNew" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.StaticUtilsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StaticUtilsTest" />
         <item itemvalue="JUnit.ParametrizeTest" />
         <item itemvalue="JUnit.ApiServiceTest" />
       </list>
@@ -114,6 +113,9 @@
       <FILTER>test.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/JunitTestingNew$ApiServiceTest.ic" NAME="ApiServiceTest Coverage Results" MODIFIED="1696341768012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JunitTestingNew$StaticUtilsTest.ic" NAME="StaticUtilsTest Coverage Results" MODIFIED="1696429751959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>test.*</FILTER>
     </SUITE>
   </component>

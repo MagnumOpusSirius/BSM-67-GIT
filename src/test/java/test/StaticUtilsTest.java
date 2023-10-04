@@ -30,17 +30,17 @@ public class StaticUtilsTest {
 
     @Test
     public void testPrivateMethod1() throws NoSuchMethodException, SecurityException, IllegalAccessException, IllegalArgumentException, InvocationTargetException {
-        Method method= StaticUtilsTest.class.getDeclaredMethod("privateTest", String.class);
+        Method method= StaticUtils.class.getDeclaredMethod("privateTest", String.class);
         method.setAccessible(true);
-        StaticUtilsTest staticUtils = new StaticUtilsTest();
+        StaticUtils staticUtils = new StaticUtils();
         String result=(String) method.invoke(staticUtils, "Hello");
         assertEquals(result, "HelloBuilding");
     }
 
     @Test
     public void staticTest(){
-        try(MockedStatic mockedStatic= Mockito.mockStatic(StaticUtilsTest.class)){ //try with resources
-            mockedStatic.when(StaticUtils::range).thenReturn("Welcome");
+        try(MockedStatic mockedStatic= Mockito.mockStatic(StaticUtils.class)){ //try with resources
+            mockedStatic.when(()->StaticUtils.range()).thenReturn("Welcome");
             assertEquals(StaticUtils.range(), "Welcome");
         }
     }

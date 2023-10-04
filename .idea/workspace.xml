@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b249600c-0b85-4e91-b720-b58b8dc44fb4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/inject/ApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/inject/ApiService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/inject/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/inject/EmailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/ApiServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/ApiServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +39,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "reference.idesettings.debugger.capture"
   }
 }]]></component>
   <component name="RunManager" selected="JUnit.ApiServiceTest">
@@ -94,8 +92,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ApiServiceTest" />
-        <item itemvalue="JUnit.StaticUtilsTest" />
         <item itemvalue="JUnit.ParametrizeTest" />
+        <item itemvalue="JUnit.StaticUtilsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -110,14 +108,18 @@
     </task>
     <servers />
   </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/JunitTestingNew$ParametrizeTest.ic" NAME="ParametrizeTest Coverage Results" MODIFIED="1696346583433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/JunitTestingNew$ParametrizeTest.ic" NAME="ParametrizeTest Coverage Results" MODIFIED="1696432045154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>test.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/JunitTestingNew$StaticUtilsTest.ic" NAME="StaticUtilsTest Coverage Results" MODIFIED="1696429751959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>test.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/JunitTestingNew$ApiServiceTest.ic" NAME="ApiServiceTest Coverage Results" MODIFIED="1696430438433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/JunitTestingNew$ApiServiceTest.ic" NAME="ApiServiceTest Coverage Results" MODIFIED="1696432059465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>test.*</FILTER>
     </SUITE>
   </component>

@@ -51,7 +51,11 @@
         <version>3.14.0</version>
         <scope>test</scope>
     </dependency>
-
+        <dependency>
+            <groupId>org.mindrot</groupId>
+            <artifactId>jbcrypt</artifactId>
+            <version>0.4</version>
+        </dependency>
 
     <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-params -->
     <dependency>
